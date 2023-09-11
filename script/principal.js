@@ -20,4 +20,4 @@ eq2grau = (a,b,c) => {
 
 }
 
-escreva(eq2grau(1,3,-8));
+escrever(eq2grau(1,3,-8));
