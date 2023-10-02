@@ -18,6 +18,10 @@
             <input type="text" value="0" id="resultado" reandonly>
         </div>
         <div class="teclas">
+            <button onclick="desligar()">On</button>
+            <button onclick="zerar()">C</button>
+            <button onclick="porcentagem()">%</button>
+            <button onclick="raiz_quadrada()">&#8730;</button>
             <button onclick="digitando('7')">7</button>
             <button onclick="digitando('8')">8</button>
             <button onclick="digitando('9')">9</button>
@@ -36,5 +40,8 @@
             <button id="igual" onclick="calcula()">=</button>
         </div>
     </section>
+    <script>
+        desligar();
+    </script>
 </body>
 </html>
