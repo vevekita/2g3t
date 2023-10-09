@@ -27,6 +27,11 @@ let valor = 0;
 let tem_ponto = false;
 let desligada = false;
 
+function raiz_quadrada(){
+    mostra_resultado(raiz(valor));
+    valor = " ";
+}
+
 function zerar(){
     if(desligada) return;
     a = "";
