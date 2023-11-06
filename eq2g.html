@@ -11,25 +11,25 @@
 <body>
     <section class="eq2grau">
         <div id="equacao">
-            <select name="sinal_a" id="sinal_a">
+            <select name="sinal_a"  onchange="set_sinal_a()" id="sinal_a">
                 <option value="+" selected >+</option>
                 <option value="-" >-</option>
             </select>
-            <input class="entrada" type="number" id="valor_a">
+            <input class="entrada" type="number"  onchange="set_sinal_a()" id="valor_a">
             <span>X<sup>2</sup></span>
 
-            <select name="sinal_b" id="sinal_b">
+            <select name="sinal_b"  onchange="set_sinal_b()" id="sinal_b">
                 <option value="+" selected >+</option>
                 <option value="-" >-</option>
             </select>
-            <input class="entrada" type="number" id="valor_b">
+            <input class="entrada" type="number"  onchange="set_sinal_b()" id="valor_b">
             <span>X</span>
 
-            <select name="sinal_c" id="sinal_c">
+            <select name="sinal_c" onchange="set_sinal_c()" id="sinal_c">
                 <option value="+" selected >+</option>
                 <option value="-" >-</option>
             </select>
-            <input class="entrada" type="number" id="valor_c">
+            <input class="entrada" type="number"  onchange="set_sinal_c()" id="valor_c">
             &Delta; = <span id="delta"></span>
             <span id="raiz"></span>
 
