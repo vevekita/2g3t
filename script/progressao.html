@@ -5,18 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Progressão</title>
+    <script src="./script.js/principal.js"></script>
 </head>
 <body>
     <section class="pa">
+
         <div class="def_pa">
             Geral: a<sub>1</sub>, a<sub>2</sub>, a<sub>1</sub>,..., a<sub>n</sub><br>
             Razão: r = a<sub>2</sub> - a<sub>1</sub><br>
             Número de Termos: n <br>
             Enésimo termo: a<sub>n</sub> = a<sub>1</sub> + (n - 1) . r <br>
         </div>
-        <div class="calc_pa">
 
+        <div class="calc_pa">
+            a<sub>1</sub> = <input type="number" id="pa_a1" onchange="setpa_a1()"><br>
+            n = <input type="number" id="pa_n" onchange="setpa_n()"><br>
+            r = <input type="number" id="pa_r" onchange="setpa_r()"><br>
+            PA: <span id="pa_seq"></span>
         </div>
+
     </section>
 </body>
 </html>
