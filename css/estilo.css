@@ -33,3 +33,13 @@ button{
     height: 40px;
     margin-top: 3px;
 }
+
+#nova_imagem{
+    width: 640px;
+    height: 360px;
+}
+
+.imagens{
+    width: 100%;
+    text-align: center;
+}
